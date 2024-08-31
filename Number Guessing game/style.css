@@ -1,0 +1,207 @@
+body {
+    background-color: #00246B;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    color: #CADCFC;
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    color: #CADCFC;
+    font-size: 150%;
+    margin-top: -20px;
+}
+
+h4 {
+    padding: 5px;
+    font-family: 'Krona One', sans-serif;
+    color: #CADCFC;
+    font-size: 130%;
+    text-align: center;
+}
+
+#result {
+    border: 5px double #CADCFC;
+    border-radius: 20px;
+    box-shadow: gray 10px 10px;
+    margin-bottom: 20px;
+    min-height: 300px;
+    max-height: 310px;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #101820;
+    background-size: cover;
+}
+
+#result2 {
+    min-height: 300px;
+    background-color: #101820;
+    max-height: 310px;
+    min-width: 155px;
+    max-width: 180px;
+    border: 5px double #CADCFC;
+    border-radius: 20px;
+    box-shadow: gray 10px 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+#result3 {
+    min-height: 300px;
+    background-color: #101820;
+    max-height: 310px;
+    min-width: 100px;
+    max-width: 160px;
+    border: 5px double #CADCFC;
+    border-radius: 20px;
+    box-shadow: gray 10px 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    background-color: #101820;
+    color: #CADCFC;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 20px;
+    height: 50px;
+    border: none;
+}
+
+input {
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#resultarea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#inputarea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+span {
+    font-family: 'Krona One', sans-serif;
+    color: #CADCFC;
+}
+
+#other {
+    background-color: #101820;
+    align-self: center;
+    width: 200px;
+}
+
+#submit {
+    padding: 50x;
+    background-color: #101820;
+}
+
+#giveup {
+    background-color: #101820;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: #CADCFC;
+    opacity: 0.7;
+}
+
+button:hover {
+    box-shadow: gray 5px 5px;
+}
+
+#attempt {
+    font-family: sans;
+    padding: 5px;
+    font-weight: bold;
+    color: #CADCFC;
+    font-size: 15px;
+    background-color: #00246B;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: #CADCFC;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-family: sans;
+}
+
+#score {
+    font-family: sans;
+    padding: 5px;
+    font-weight: bold;
+    color: #CADCFC;
+    font-size: 15px;
+    background-color: #00246B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#streak {
+    font-family: sans;
+    padding: 5px;
+    font-weight: bold;
+    color: #CADCFC;
+    font-size: 15px;
+    background-color: #00246B;
+    margin-bottom: 10px;
+}
+
+#guessessofar {
+    font-family: sans;
+    padding: 5px;
+    font-weight: bold;
+    color: #CADCFC;
+    font-size: 15px;
+    background-color: #00246B;
+}
+
+#stats {
+    text-align: center;
+    font-weight: bold;
+    color: #FBEAEB;
+    font-family: 'Krona One', sans-serif;
+    font-size: 130%;
+}
+
+#guesscounter {
+    font-size: 14px;
+}
+
+#currentguess {
+    color: #00246B;
+    font-family: sans;
+    font-weight: bold;
+    margin: 7px;
+    background-color: #FBEAEB;
+    padding: 10px;
+}
